@@ -1,0 +1,28 @@
+name: app_audio_streaming
+description: Aplicacion para enviar audio del microfono mediante streaming.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get:
+  flutter_sound: ^9.2.13
+  audio_session: ^0.1.6
+  permission_handler: ^9.2.0
+  socket_io:
+  socket_io_client:
+  device_info_plus: ^4.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
